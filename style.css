@@ -1,0 +1,166 @@
+:root {
+    --primary: #64BABB;
+    --secondary: #767F7E;
+    --header-background: #5DA5A4;
+    --margin: 15px 20px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0px 100px;
+  
+
+
+}
+body{
+    background-color: #F0FAFB;
+}
+/*Header*/
+.header {
+    height: 150px;
+    background-image: url(img/bg-header-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: var(--header-background);
+    position: relative;
+
+}
+
+.header-menu {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px 40px;
+    position: relative;
+   bottom: -110px;
+   box-shadow: 2px 2px 1px .6px rgb(186, 215, 226);
+
+
+}
+
+.menu-list,
+.clear-button {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.menu-list a {
+    text-decoration: none;
+    font-size:15px;
+    color: var(--primary);
+    background-color: rgb(234, 242, 242);
+    padding: 7px 0px 5px 10px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+
+
+}
+
+.menu-list i {
+    margin-left: 10px;
+
+}
+
+
+.clear-button a {
+    color: var(--primary);
+    font-weight: bold;
+}
+.menu-list a i:hover{
+    color: var(--secondary);
+}
+
+.clear-button a:hover{
+    color: #767F7E;
+}
+/*Details Section*/
+.detail-section{
+   margin-top: 70px;
+   padding-bottom: 80px;
+    
+}
+.single-cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+    background-color: white;
+   padding: 20px;
+    box-shadow: 1px 1px 5px .6px rgb(157, 208, 225);
+    margin: 20px 100px;
+    border-radius: 5px;
+}
+.single-cards .single-card{
+    display: flex;
+    line-height: 30px;
+   padding: 10px 0px 0px;
+   
+    
+}
+.single-card .logo{
+    margin-right: 20px;
+}
+.single-card h5{
+    color: var(--primary);
+    margin-right: 10px;
+    font-size: 15px;
+}
+.single-card h3{
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 16px;
+}
+.single-text-header{
+    display: flex;
+}
+.single-text-header a{
+    text-decoration: none;
+    margin: 0px 5px;
+    font-weight: bold;
+    font-size: 14px;
+   
+   
+}
+.single-text-header a:nth-child(2){
+    background-color: #5DA5A4;
+    color: white;
+    padding: 5px 10px 0px 10px;
+    border-radius: 20px;
+     
+}
+.single-text-header a:nth-child(3){
+    background-color:var(--secondary);
+    color: white;
+    padding: 3px 20px 2px 20px;
+    border-radius: 20px;
+}
+.single-text-footer span{
+    margin-right: 15px;
+    color: gray;
+    font-size: 14px;
+}
+.single-cards .skill-section{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+
+}
+.skill-section a{
+    text-decoration: none;
+    margin-right: 10px;
+   background-color: #F0FAFB;
+   color: var(--primary);
+   padding: 5px 10px;
+   border-radius: 5px;
+   font-weight: bold;
+   font-family: Arial;
+   font-size: 15px;
+}
